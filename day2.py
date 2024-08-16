@@ -54,13 +54,45 @@ n = True
 print(type(n)) #result bool
 
 
+#Floor Division 
+print(8 // 3)
+
+#Round of to n decimal
+print(round(2.666666,2))   #Rounds of to 2 decimal
+
+
+#Operators
+
+x = 1
+y = 2
+
+x += y
+x -= y
+x *= y
+x /= y
+
+
+#F-Strings
+#You can insert a variable into a string using f-strings.
+#The syntax is simple, just insert the variable in-between a set of curly braces {}.
+
+days = 365
+print(f"There are {days} in a year")
+
+
+
+
+#Living Calculator
+age = int(input("Enter your age: "))
+years = 90 - age
+print(f"You have {years * 365} Days , {years*12} Months , {years*52} Weeks and {years} Years to live ")
 
 
 #BMI Calculator
 
 h = float(input("Enter your height: "))
 w = float(input("Enter your weight: "))
-bmi = (w/(h*h))
+bmi = (w/(h*h)) # height should be in meters
 print("Your BMI is: " + str(bmi))
 
 
