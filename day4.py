@@ -65,15 +65,6 @@ print(f"My name is {Module1_day4.name} and I am {Module1_day4.age} years old")
 
 
 
-#Toss
-n = random.randint(1,10)
-
-if(n%2 == 0):
-    print("Tails")
-else:
-    print("Heads")    
-
-
 # List
 l = [1,2,3,"hello","world"]
 
@@ -114,3 +105,13 @@ letters[-1]
 letters = ["a","b","c","d"]
 letters[1:3]
 #Result: ["b", "c"]
+
+
+
+#Toss
+n = random.randint(1,10)
+
+if(n%2 == 0):
+    print("Tails")
+else:
+    print("Heads")    
